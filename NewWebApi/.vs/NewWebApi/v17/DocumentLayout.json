@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E69CE47-8501-4A1B-967F-8871457831FC}|..\\..\\MVCWeb\\MVCWeb\\MVCWeb.csproj|c:\\users\\berkay\\source\\repos\\mvcweb\\mvcweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E69CE47-8501-4A1B-967F-8871457831FC}|..\\..\\MVCWeb\\MVCWeb\\MVCWeb.csproj|c:\\users\\berkay\\source\\repos\\mvcweb\\mvcweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E69CE47-8501-4A1B-967F-8871457831FC}|..\\..\\MVCWeb\\MVCWeb\\MVCWeb.csproj|c:\\users\\berkay\\source\\repos\\mvcweb\\mvcweb\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\CompanyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\BillsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\MVCWeb\\MVCWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Program.cs",
+              "RelativeToolTip": "..\\..\\MVCWeb\\MVCWeb\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:16:20.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "..\\..\\MVCWeb\\MVCWeb\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "..\\..\\MVCWeb\\MVCWeb\\Controllers\\CompanyController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T14:11:16.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BillsController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\BillsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\MVCWeb\\MVCWeb\\Controllers\\BillsController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\BillsController.cs",
+              "RelativeToolTip": "..\\..\\MVCWeb\\MVCWeb\\Controllers\\BillsController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T13:38:20.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "..\\..\\MVCWeb\\MVCWeb\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "..\\..\\MVCWeb\\MVCWeb\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wCkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T13:38:16.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\MVCWeb\\MVCWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\..\\MVCWeb\\MVCWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:07:37.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "..\\..\\MVCWeb\\MVCWeb\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Models\\Company.cs",
+              "RelativeToolTip": "..\\..\\MVCWeb\\MVCWeb\\Models\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:58:08.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\MVCWeb\\MVCWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\MVCWeb\\MVCWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\MVCWeb\\MVCWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAJEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T11:32:07.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

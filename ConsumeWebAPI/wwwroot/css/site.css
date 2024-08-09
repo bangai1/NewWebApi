@@ -1,0 +1,9 @@
+body{
+    font-family:Arial;
+    font-size:16px;
+    margin:0;
+    background: linear-gradient(to right top ,#0ecae8 , #0ee89);
+    min-height:100vh;
+}
+
+.seearch_s

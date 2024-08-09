@@ -1,0 +1,362 @@
+﻿@* @model IEnumerable<ConsumeWebAPI.Models.CompanyViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <select id="companies">
+        <ul>
+            @foreach (var company in Model)
+            {
+
+                <li>@company.Company_Name</li>
+
+            }
+        </ul>
+
+    </select>
+    <input type="text" id="aboneNo"/>
+
+    <button id="btnCompy" class="companybtn">Get compay</button>
+
+    <script>
+            $("#btnCompy").on("click", function () {
+                var compnayId = $("#company").selected();
+                var aboneNo = $("#aboneNo").val();
+
+                //âjax request
+
+            xhttp.open("GET", "https://localhost:7170/Company/getCompany", true);
+            xhttp.send()
+            })
+    </script>
+</div>
+
+
+
+
+
+
+ @*baya doru çalışıyor*@
+
+@*
+@model IEnumerable<ConsumeWebAPI.Models.CompanyViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div>
+        <input type="text" id="companySearch" placeholder="Search for a company" />
+        <button id="btnSelectCompany" class="companybtn">Get company</button>
+    </div>
+    <ul id="companyList">
+        @foreach (var company in Model)
+        {
+            <li class="company-item" data-company-no="@company.company_No">@company.Company_Name</li>
+        }
+    </ul>
+    <div>
+        <input type="text" id="Bill_No" placeholder="Cust Number" disabled />
+        <button id="btnCustSearch" class="custbtn" disabled>Search Cust No</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var selectedCompanyNo = null;
+
+            // Filter companies as user types in the search bar
+            $("#companySearch").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#companyList .company-item").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+
+            // Select a company from the list
+            $("#companyList").on("click", ".company-item", function () {
+                selectedCompanyNo = $(this).attr("data-company-no");
+                var selectedCompanyName = $(this).text();
+                $("#companySearch").val(selectedCompanyName);
+                $("#companyList .company-item").hide();
+                console.log("Selected Company No:", selectedCompanyNo); // Debugging line
+            });
+
+            // Enable the cust number input and button when "Get company" is clicked
+            $("#btnSelectCompany").on("click", function () {
+                if (!selectedCompanyNo) {
+                    alert("Please select a company.");
+                    return;
+                }
+                $("#Bill_No").prop("disabled", false).focus();
+                $("#btnCustSearch").prop("disabled", false);
+                console.log("Confirmed Company No:", selectedCompanyNo); // Debugging line
+            });
+
+            // Handle cust number search
+            $("#btnCustSearch").on("click", function () {
+                var Bill_No = $("#Bill_No").val();
+
+                if (!Bill_No) {
+                    alert("Please enter the cust number.");
+                    return;
+                }
+
+                // AJAX request
+                $.ajax({
+                    url: "https://localhost:7170/Company/getCompany",
+                    type: "GET",
+                    data: {
+                        companyNo: selectedCompanyNo,
+                        Bill_No: Bill_No
+                    },
+                    success: function (response) {
+                        // Handle the response from the server
+                        console.log(response);
+                    },
+                    error: function (error) {
+                        // Handle any errors
+                        console.error(error);
+                    }
+                });
+            });
+        });
+    </script>
+</div>
+ *@
+
+
+
+@model IEnumerable<ConsumeWebAPI.Models.CompanyViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div>
+        <input type="text" id="companySearch" placeholder="Search for a company" />
+        <button id="btnSelectCompany" class="companybtn">Get company</button>
+    </div>
+    <ul id="companyList">
+        @foreach (var company in Model)
+        {
+            <div class="company-item" data-company-no="@company.company_No" data-company-name="@company.Company_Name">@company.Company_Name</div>
+        }
+    </ul>
+    <div>
+        <input type="text" id="Bill_No" placeholder="Bill_No" disabled />
+        <button id="btnCustSearch" class="custbtn" disabled>Search Bill_No</button>
+    </div>
+    <div>
+        <table id="billTable" class="table table-bordered" style="display:none;">
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>Bill ID</th>
+                    <th>Due Date</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Bills will be populated here -->
+            </tbody>
+        </table>
+
+        <input type="text" id="cust_no" placeholder="cust_no" />
+        <input type="hidden" id="cust_id" />
+        <button id="btn-get-cust_no"> get cust_no </button>
+
+    </div>
+    <div>
+        <button id="btnSubmit" class="submitbtn" style="display:none;">Confirm Payment</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            var selectedCompanyNo = null;
+            var selectedCompanyName = null;
+
+            // Filter companies as user types in the search bar
+            $("#companySearch").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#companyList .company-item").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+
+            // Select a company from the list
+            $("#companyList").on("click", ".company-item", function () {
+                selectedCompanyNo = $(this).attr("data-company-no");
+                selectedCompanyName = $(this).attr("data-company-name");
+                $("#companySearch").val(selectedCompanyName);
+                $("#companyList .company-item").hide();
+                console.log("Selected Company Name:", selectedCompanyName);
+                console.log("Selected Company No:", selectedCompanyNo);
+            });
+
+            // Enable the customer number input and button when "Get company" is clicked
+            $("#btnSelectCompany").on("click", function () {
+                if (!selectedCompanyNo) {
+                    alert("Please select a company.");
+                    return;
+                }
+                $("#Bill_No").prop("disabled", false).focus();
+                $("#btnCustSearch").prop("disabled", false);
+                $("#billTable tbody").empty(); // Clear any previous bills
+                $("#billTable").hide();
+                $("#btnSubmit").hide();
+                console.log("Confirmed Company Name:", selectedCompanyName);
+                console.log("Confirmed Company No:", selectedCompanyNo);
+            });
+
+            // Fetch bills for the selected customer number
+            $("#btnCustSearch").on("click", function () {
+                var Bill_No = $("#Bill_No").val();
+
+                if (!Bill_No) {
+                    alert("Please enter the customer number.");
+                    return;
+                }
+
+                // AJAX request to fetch bills
+                $.ajax({
+                    url: `https://localhost:7170/Bills/GetBills_by_Bill_No_and_Company_No/${Bill_No}/${selectedCompanyNo}`,
+                    type: "GET",
+                    success: function (response) {
+                        var $billTable = $("#billTable tbody");
+                        $billTable.empty(); // Clear the table body
+                        if (response.length > 0) {
+                            $.each(response, function (index, bill) {
+                                $billTable.append(`
+                                            <tr>
+                                                <td><input type="checkbox" data-bill-balance="${bill.balance}" value="${bill.id}"></td>
+                                                <td>${bill.id}</td>
+                                                <td>${new Date(bill.due_Date).toLocaleDateString()}</td>
+                                                <td>${bill.balance}</td>
+                                            </tr>
+                                        `);
+                            });
+
+                            $("#billTable").show();
+                            $("#btnSubmit").show();
+
+                            // Fetch customer balance after bills are fetched
+                            $.ajax({
+                                url: `https://localhost:7170/Customer/GetCustomerByCustomNo/${cust_no}`,
+                                type: "GET",
+                                success: function (response) {
+
+
+                                    var customerBalance; //prob the logic error
+
+                                    $.each(response, function (index, customer) {
+                                        if (customer.cust_No == Bill_No) { // Match cust_No
+                                            customerBalance = customer.balance; // Store the balance
+                                            return false; // Exit the loop once the match is found
+                                        }
+                                    });
+
+                                    console.log("Customer balance:", customerBalance);
+
+                                },
+                                error: function (error) {
+                                    console.error("Error fetching customer balance:", error);
+                                    alert("Error fetching customer balance.");
+                                }
+                            });
+
+                        } else {
+                            alert("No bills found for the given customer number.");
+                        }
+                        console.log("Bills fetched:", response);
+                    },
+                    error: function (error) {
+                        console.error("Error fetching bills:", error);
+                    }
+                });
+            });
+
+
+
+            $("#btn-get-cust_no").on("click", function () {
+                var cust_no = $("#cust_no").val();
+                if (!cust_no) {
+                    alert("Please enter cust_no");
+                    return;
+                }
+
+                $.ajax({
+                    url: `https://localhost:7170/Customer/GetCustomerByCustomNo/${cust_no}`,
+                    type: "GET",
+                    success: function (response) {
+                        if (response != undefined) { 
+                            
+                            $('#cust_id').val(response.cust_No);
+                        }
+
+                        else{
+                            alert("customer not found");
+                        }
+                    }
+                });
+
+            });
+
+
+
+            // Handle submit button click
+            $("#btnSubmit").on("click", function () {
+                var Bill_No = $("#Bill_No").val();
+                if (!Bill_No) {
+                    alert("Please enter the bill no.");
+                    return;
+                }
+
+                // Fetch customer balance again when submitting
+                $.ajax({
+                    // url: `https://localhost:7170/Customer/GetCustomerByCustomNo/${Bill_No}`,
+                    // type: "GET",
+                    success: function (response) {
+                        var customerBalance = response.balance; // Store the fetched balance
+                        console.log("Customer balance:", customerBalance);
+
+                        var selectedBills = [];
+                        var totalBillBalance = 0;
+
+                        $("#billTable input[type='checkbox']:checked").each(function () {
+                            var billBalance = parseFloat($(this).data('bill-balance'));
+                            totalBillBalance += billBalance;
+                            selectedBills.push($(this).val());
+                        });
+
+                        if (selectedBills.length > 0) {
+                            if (totalBillBalance <= customerBalance) {
+                                console.log("Selected bills for payment:", selectedBills);
+                                console.log("Total bill balance:", totalBillBalance);
+                                console.log("Customer balance:", customerBalance);
+                                // Here you can add your logic to process the payment
+                                alert("Payment successful!");
+                            } else {
+                                alert("Insufficient balance. Please select fewer bills or add funds to your account.");
+                            }
+                        } else {
+                            alert("Please select at least one bill to confirm payment.");
+                        }
+                    },
+                    error: function (error) {
+                        console.error("Error fetching customer balance:", error);
+                        alert("Error fetching customer balance.");
+                    }
+                });
+            });
+        });
+
+
+    </script>
+</div>
