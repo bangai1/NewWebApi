@@ -1,6 +1,6 @@
- #Dotnet Web API using with c# and jquerry
+ # Dotnet Web API using with c# and jquerry
 
- #Preview
+ ## Preview
 
 A collection payment website that 
 
