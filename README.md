@@ -42,6 +42,7 @@ c#.
 The project is based on Database First structure and using Dapper .That I created the DB from
 MS SQL Server. After that using connection string to fetching data from my DB.
 
+<br/>
 
 Connection String
 ```
@@ -50,6 +51,8 @@ Connection String
   },
 
 ```
+<br/>
+
 
 Initiliazing the model from orginal Customer Table from DB
 ```
@@ -75,18 +78,7 @@ namespace NewWebApi.Models
 }
 ```
 
- Creating configurations
-```
-      private readonly IConfiguration _configuration;
-        private readonly ILogger<CustomerController> _logger;
-
-        public CustomerController(ILogger<CustomerController> logger, IConfiguration configuration)
-        {
-            _logger = logger;
-            _configuration = configuration;
-        }
-
-```
+<br/>
 
 
  Creating configurations
@@ -101,6 +93,9 @@ namespace NewWebApi.Models
         }
 
 ```
+<br/>
+
+
  Sample (Customer) fetching from SQL
 
 ```
@@ -116,6 +111,46 @@ namespace NewWebApi.Models
  }
 
 ```
+<br/>
+
+
+Here we are consuming our api with http client 
+```
+  private readonly HttpClient _client;
+
+  public CustomerController()
+  {
+      _client = new HttpClient { BaseAddress = new Uri("https://localhost:7170/") };
+  }
+```
+<br/>
+
+This the sample get method that after consuming the 
+web url from we are adjusting the response message to our website
+```
+        [HttpGet]
+        public async Task<IActionResult> Index(string cust_no)
+        {
+            List<CustomerViewModel> customerList = new List<CustomerViewModel>();
+
+            HttpResponseMessage response = await _client.GetAsync("Customer/GetCustomerByCustomNo/{custNo}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                string data = await response.Content.ReadAsStringAsync();
+                customerList = JsonConvert.DeserializeObject<List<CustomerViewModel>>(data);
+            }
+
+
+            if (!string.IsNullOrEmpty(cust_no))
+            {
+                customerList = customerList.FindAll(c => c.Cust_No.Contains(cust_no, StringComparison.OrdinalIgnoreCase));
+            }
+
+            return View(customerList);
+        }
+```
+<br/>
 
 
 ### (FrontEnd Section) <br/>
