@@ -43,7 +43,7 @@ The project is based on Database First structure and using Dapper .That I create
 MS SQL Server. After that using connection string to fetching data from my DB.
 
 
-Connectiong String
+Connection String
 ```
 "ConnectionStrings": {
     "DefaultConnection": "Data Source=DESKTOP-FCAH7OP;Initial Catalog=webdata;Integrated Security=True;Encrypt=True;Trust Server Certificate=True"
