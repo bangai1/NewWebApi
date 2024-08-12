@@ -6,7 +6,7 @@
 @{
     ViewData["Title"] = "Login";
 }
-
+@* 
 <div class="row d-flex align-items-center justify-content-center">
     <div class="col-md-3 card p-3">
         <h2 class="text-center text-info">Login</h2>
@@ -38,6 +38,108 @@
         </form>
     </div>
 </div>
+ *@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e9ecef;
+            padding-top: 50px;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h2.text-info {
+            color: #fff !important;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #0056b3;
+            }
+
+        .form-control {
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .form-check-label {
+            color: #fff;
+        }
+
+        .text-danger {
+            color: #ff4d4d !important;
+        }
+
+        .text-decoration-none {
+            color: #fff !important;
+        }
+
+            .text-decoration-none:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-md-4 card p-4">
+                <h2 class="text-center text-info">Login</h2>
+                <form asp-action="Login" method="post" asp-route-returnurl="@ViewData["ReturnUrl"]">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="mb-3">
+                        <label asp-for="Username" class="control-label text-white"></label>
+                        <input asp-for="Username" class="form-control" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Password" class="control-label text-white"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <label class="form-check-label">
+                            <input asp-for="RememberMe" class="form-check-input" /> @Html.DisplayNameFor(a => a.RememberMe)
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <a asp-action="Register" class="text-decoration-none float-start mt-2" asp-route-returnurl="@ViewData["ReturnUrl"]">Don't have an account?</a>
+                        </div>
+                        <div class="col-4">
+                            <input type="submit" value="Login" class="btn btn-primary btn-sm float-end" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
 
 @section Scripts {
     @{

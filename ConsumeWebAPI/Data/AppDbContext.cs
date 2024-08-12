@@ -13,7 +13,6 @@ namespace ConsumeWebAPI.Data
         {
         }
 
-        // If you need to expose DbSet for AppUser (optional)
-        // public DbSet<AppUser> AppUsers { get; set; }
+        
     }
 }
