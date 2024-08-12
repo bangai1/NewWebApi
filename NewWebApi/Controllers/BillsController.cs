@@ -73,32 +73,80 @@ namespace NewWebApi.Controllers
             var bills = await connection.QueryAsync<Bills>("SELECT * FROM Bills WHERE Bill_No = @Bill_No AND Company_No = @Company_No", parameters);
             return Ok(bills);
         }
+
+        [HttpPut("Compare_The_Balance/{Company_No}/{Bill_No}/{Cust_No}")]
+        public async Task<ActionResult<Bills>> ComapareTHEBalance(string Company_No, string Bill_No, string Cust_No)
+        {
+            using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+
+            var userParams = new DynamicParameters();
+            userParams.Add("@custNo", Cust_No);
+            var customerResponse = await connection.QueryAsync<Customer>("select * from Customer where Cust_No = @custNo", userParams);
+            var customer = customerResponse.FirstOrDefault();
+            if (customer == null)
+            {
+                return NotFound("Customer not found!");
+            }
+            else if (customer.Balance < 0)
+            {
+                return Ok("Customer balance is less than bill amount");
+            }
+
+
+
+            var billParams = new DynamicParameters();
+            billParams.Add("@billNo", Cust_No);
+            billParams.Add("@companyNo", Cust_No);
+            var billResponse = await connection.QueryAsync<Bills>("select * from Bills where Bill_No = @billNo and Company_No = @companyNo", billParams);
+            var bill = billResponse.FirstOrDefault();
+            if (bill == null)
+            {
+                return NotFound("Bill not found!");
+            }
+
+            var newCustomerBalance = customer.Balance - bill.Balance;
+            if (newCustomerBalance < 0)
+            {
+                return Ok("Customer balance is less than bill amount");
+            }
+
+            var parameters = new DynamicParameters();
+            parameters.Add("@Bill_No", Bill_No);
+            parameters.Add("@Cust_No", Cust_No);
+
+            var bills = await connection.QueryAsync<Bills>($"UPDATE webdata.dbo.Customer SET Balance = Balance - {newCustomerBalance} WHERE Cust_No = @Cust_No;\r\n\r\n select c.Name , c.Surname ,c.Balance from webdata.dbo.Customer c where Cust_No=@Cust_No", parameters);
+            return Ok(bills);
+        }
+
+
+
+
     }
 
 
-        //public async Task<IActionResult> Add_To_PaidBills(Bills bills)
-        //{
+    //public async Task<IActionResult> Add_To_PaidBills(Bills bills)
+    //{
 
-        //    {
-        //        using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
-        //        var parameters = new DynamicParameters();
+    //    {
+    //        using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+    //        var parameters = new DynamicParameters();
 
-        //        parameters.Add("@Status", bills.Status);
-        //        parameters.Add("@CustNo", bills.Cust_No);
-                
-        //        //await connection.ExecuteAsync("Update Customer  set Status='@Status' , Balance ='@Balance'  where ID = '@ID' ", parameters);
-                
-        //        return Ok(await SelectAllBills(connection));
+    //        parameters.Add("@Status", bills.Status);
+    //        parameters.Add("@CustNo", bills.Cust_No);
 
-        //    }
+    //        //await connection.ExecuteAsync("Update Customer  set Status='@Status' , Balance ='@Balance'  where ID = '@ID' ", parameters);
 
-        //}
+    //        return Ok(await SelectAllBills(connection));
 
+    //    }
 
+    //}
 
 
 
 
 
-    }
+
+
+}
 

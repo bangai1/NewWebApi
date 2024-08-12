@@ -5,7 +5,7 @@ namespace NewWebApi.Models
     public class Paid__Bills
     {
 
-        public string ID { get; set; }
+        public string? ID { get; set; }
 
         public DateTime Created_At { get; set; }
 
@@ -13,6 +13,6 @@ namespace NewWebApi.Models
 
         public float  Amount { get; set; }
 
-        public string  Paid_By { get; set; }
+        public string?  Paid_By { get; set; }
     }
 }

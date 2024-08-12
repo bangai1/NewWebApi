@@ -50,7 +50,8 @@ namespace NewWebApi.Controllers
             parameters.Add("@Cust_No", Cust_No);
 
             var customers = await connection.QueryAsync<Customer>(" SELECT * FROM Customer WHERE Cust_No = @Cust_No", parameters);
-            return Ok(customers.FirstOrDefault());
+            var data = customers.FirstOrDefault();
+            return Ok(data);
 
         }
 
@@ -74,6 +75,20 @@ namespace NewWebApi.Controllers
             return Ok(await SelectAllCustomers(connection));
 
         }
+
+        //[HttpPut]
+        //public async Task<ActionResult<Bills>> ComapareTHEBalance(string Bill_No, string cust_No)
+        //{
+        //    using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+        //    var parameters = new DynamicParameters();
+        //    parameters.Add("@Bill_No", Bill_No);
+        //    parameters.Add("@cust_No", cust_No);
+
+        //    var bills = await connection.QueryAsync<Bills>("UPDATE webdata.dbo.Customer\r\nSET Balance = Balance - (\r\n    SELECT Balance \r\n    FROM webdata.dbo.Bills\r\n    WHERE Bill_No = @Bill_No \r\n      AND Cust_No = 1700\r\n)\r\nWHERE Cust_No = cust_No;\r\n\r\n", parameters);
+        //    return Ok(bills);
+        //}
+
+
 
         [HttpPost("Create")]
         public async Task<ActionResult<Customer>> CreateCustomer(Customer cus)

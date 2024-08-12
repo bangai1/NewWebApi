@@ -45,16 +45,34 @@ namespace NewWebApi.Controllers
 
 
         [HttpGet("bill_no")]
-        public async Task<IActionResult> GetAll_From_subs_no(int bill_no)
+        public async Task<IActionResult> GetAll_From_bill_no(int Bill_no)
         {
 
             {
 
                 using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
                 var parameters = new DynamicParameters();
-                parameters.Add("@bill_no", bill_no);
+                parameters.Add("@bill_no", Bill_no);
 
-                var customers = await connection.QueryAsync<Customer>("  select Bill_No from Paid__Bills");
+                var customers = await connection.QueryAsync<Paid__Bills>("  SELECT * FROM paid__bills WHERE bill_no  = @bill_no ", parameters);
+                return Ok(customers.FirstOrDefault()); ;
+            }
+            
+
+        }
+
+        [HttpPost("bill_no")]
+        public async Task<IActionResult> Paid_Logger(int Bill_no)
+        {
+
+            {
+
+                using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+                var parameters = new DynamicParameters();
+                parameters.Add("@bill_no", Bill_no);
+             
+
+                var customers = await connection.QueryAsync<Customer>("  INSERT INTO Paid (Bill_No, Amount, Paid_By, Created_Date)\r\nVALUES (@Bill_No, @Amount, @Paid_By, @Created_Date" ,parameters);
                 return Ok(customers.FirstOrDefault()); ;
             }
 

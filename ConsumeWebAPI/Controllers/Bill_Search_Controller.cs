@@ -48,5 +48,42 @@ namespace ConsumeWebAPI.Controllers
 
             return View(bill_list);
         }
+
+
+        //[HttpPut] //substrack
+        //public async Task<IActionResult> balance_check(string bill_no, string cust_no)
+        //{
+        //    List<BillsViewModel> bill_list = new List<BillsViewModel>();
+
+        //    // Check if cust_no is null or empty
+        //    if (string.IsNullOrEmpty(bill_no))
+        //    {
+        //        ViewBag.ErrorMessage = "Customer number is required.";
+        //        return View(bill_list);
+        //    }
+
+        //    // Ensure cust_no is a valid integer
+        //    if (!int.TryParse(cust_no, out int custNoInt))
+        //    {
+        //        ViewBag.ErrorMessage = "Invalid customer number format.";
+        //        return View(bill_list);
+        //    }
+
+        //    HttpResponseMessage response = await _client.GetAsync("Compare_The_Balance/{Bill_No}/{Cust_No}");
+
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        string data = await response.Content.ReadAsStringAsync();
+        //        bill_list = JsonConvert.DeserializeObject<List<BillsViewModel>>(data);
+        //    }
+        //    else
+        //    {
+        //        ViewBag.ErrorMessage = "Failed to retrieve data from API.";
+        //        return View(bill_list);
+        //    }
+
+        //    return View(bill_list);
+        //}
+
     }
 }

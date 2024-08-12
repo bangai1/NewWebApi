@@ -134,7 +134,7 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-@* 
+@*
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <div>
@@ -175,9 +175,10 @@
         <button id="btnSubmit" class="submitbtn" style="display:none;">Confirm Payment</button>
     </div> *@
 
+
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -189,16 +190,13 @@
             background-color: #f8f9fa;
             padding-top: 50px;
         }
-
         .container {
             max-width: 600px;
             margin: auto;
         }
-
         h1.display-4 {
             margin-bottom: 30px;
         }
-
         .company-item {
             background-color: #007bff;
             color: white;
@@ -207,57 +205,35 @@
             border-radius: 5px;
             cursor: pointer;
         }
-
-            .company-item:hover {
-                background-color: #0056b3;
-            }
-
+        .company-item:hover {
+            background-color: #0056b3;
+        }
         .form-control[disabled],
         .btn[disabled] {
             background-color: #e9ecef;
             cursor: not-allowed;
         }
-
-        .btn-secondary.custbtn {
-            background-color: #343a40;
-            border-color: #343a40;
-        }
-
-            .btn-secondary.custbtn:hover {
-                background-color: #1d2124;
-                border-color: #1d2124;
-            }
-
-        #billTable {
+        #billTable, #customerTable {
             margin-top: 20px;
         }
-
         #btnSubmit {
             margin-top: 20px;
         }
     </style>
 </head>
-
 <body>
     <div class="container text-center">
-        <h1 class="display-4">Welcome  to  <h3>User Payment Page</h3></h1>
+        <h1 class="display-4">Welcome to <h3>User Payment Page</h3></h1>
         <br />
-
-        <div class="input-group mb-3">
-            <input type="text" id="companySearch" class="form-control" placeholder="Search for a company">
-            <div class="input-group-append">
-                <button id="btnSelectCompany" class="btn btn-primary companybtn">Get company</button>
-            </div>
-        </div>
-
-        <ul id="companyList" class="list-unstyled">
+        
+        <select id="companyList" class="form-select">
             @foreach (var company in Model)
             {
-                <li class="company-item" data-company-no="@company.company_No" data-company-name="@company.Company_Name">
-                    @company.Company_Name
-                </li>
+                <option value="@company.company_No">@company.Company_Name</option>
             }
-        </ul>
+        </select>
+        
+        <button id="btnSelectCompany" class="btn btn-primary companybtn">Get Company</button>
 
         <div class="input-group mb-3">
             <input type="text" id="Bill_No" class="form-control" placeholder="Bill_No" disabled>
@@ -288,57 +264,43 @@
             </div>
         </div>
 
+        <!-- New table for displaying customer details -->
+        <table id="customerTable" class="table table-bordered" style="display:none;">
+            <thead class="thead-light">
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Customer Surname</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Customer details will be populated here -->
+            </tbody>
+        </table>
+
         <button id="btnSubmit" class="btn btn-success submitbtn" style="display:none;">Confirm Payment</button>
     </div>
 
     <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-
-</html>
-
-
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-
         $(document).ready(function () {
             var selectedCompanyNo = null;
-            var selectedCompanyName = null;
 
-            // Filter companies as user types in the search bar
-            $("#companySearch").on("keyup", function () {
-                var value = $(this).val().toLowerCase();
-                $("#companyList .company-item").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-                });
-            });
-
-            // Select a company from the list
-            $("#companyList").on("click", ".company-item", function () {
-                selectedCompanyNo = $(this).attr("data-company-no");
-                selectedCompanyName = $(this).attr("data-company-name");
-                $("#companySearch").val(selectedCompanyName);
-                $("#companyList .company-item").hide();
-                console.log("Selected Company Name:", selectedCompanyName);
-                console.log("Selected Company No:", selectedCompanyNo);
-            });
-
-            // Enable the customer number input and button when "Get company" is clicked
+            // Select a company from the dropdown list
             $("#btnSelectCompany").on("click", function () {
+                selectedCompanyNo = $("#companyList").val();
                 if (!selectedCompanyNo) {
                     alert("Please select a company.");
                     return;
                 }
+
+                // Enable the Bill_No input and button after company selection
                 $("#Bill_No").prop("disabled", false).focus();
                 $("#btnCustSearch").prop("disabled", false);
                 $("#billTable tbody").empty(); // Clear any previous bills
                 $("#billTable").hide();
                 $("#btnSubmit").hide();
-                console.log("Confirmed Company Name:", selectedCompanyName);
-                console.log("Confirmed Company No:", selectedCompanyNo);
             });
 
             // Fetch bills for the selected customer number
@@ -346,7 +308,7 @@
                 var Bill_No = $("#Bill_No").val();
 
                 if (!Bill_No) {
-                    alert("Please enter the customer number.");
+                    alert("Please enter the Bill_No.");
                     return;
                 }
 
@@ -360,47 +322,20 @@
                         if (response.length > 0) {
                             $.each(response, function (index, bill) {
                                 $billTable.append(`
-                                            <tr>
-                                                <td><input type="checkbox" data-bill-balance="${bill.balance}" value="${bill.id}"></td>
-                                                <td>${bill.id}</td>
-                                                <td>${new Date(bill.due_Date).toLocaleDateString()}</td>
-                                                <td>${bill.balance}</td>
-                                            </tr>
-                                        `);
+                                    <tr>
+                                        <td><input type="checkbox" data-bill-balance="${bill.balance}" value="${bill.id}"></td>
+                                        <td>${bill.id}</td>
+                                        <td>${new Date(bill.due_Date).toLocaleDateString()}</td>
+                                        <td>${bill.balance}</td>
+                                    </tr>
+                                `);
                             });
 
                             $("#billTable").show();
                             $("#btnSubmit").show();
-
-                            // Fetch customer balance after bills are fetched
-                            $.ajax({
-                                url: `https://localhost:7170/Customer/GetCustomerByCustomNo/${cust_no}`,
-                                type: "GET",
-                                success: function (response) {
-
-
-                                    var customerBalance; //prob the logic error
-
-                                    $.each(response, function (index, customer) {
-                                        if (customer.cust_No == Bill_No) { // Match cust_No
-                                            customerBalance = customer.balance; // Store the balance
-                                            return false; // Exit the loop once the match is found
-                                        }
-                                    });
-
-                                    console.log("Customer balance:", customerBalance);
-
-                                },
-                                error: function (error) {
-                                    console.error("Error fetching customer balance:", error);
-                                    alert("Error fetching customer balance.");
-                                }
-                            });
-
                         } else {
                             alert("No bills found for the given customer number.");
                         }
-                        console.log("Bills fetched:", response);
                     },
                     error: function (error) {
                         console.error("Error fetching bills:", error);
@@ -408,8 +343,7 @@
                 });
             });
 
-
-
+            // Fetch customer number and display customer details
             $("#btn-get-cust_no").on("click", function () {
                 var cust_no = $("#cust_no").val();
                 if (!cust_no) {
@@ -421,37 +355,53 @@
                     url: `https://localhost:7170/Customer/GetCustomerByCustomNo/${cust_no}`,
                     type: "GET",
                     success: function (response) {
-                        if (response != undefined) { 
-                            
+                        if (response) { // Check if response is valid
                             $('#cust_id').val(response.cust_No);
+                            var $customerTable = $("#customerTable tbody");
+                            $customerTable.empty(); // Clear any previous data
+                            $customerTable.append(`
+                                <tr>
+                                    <td>${response.name}</td>
+                                    <td>${response.surname}</td>
+                                    <td>${response.balance}</td>
+                                </tr>
+                            `);
+                            $("#customerTable").show(); // Show the table with customer details
+                        } else {
+                            alert("Customer not found.");
                         }
-
-                        else{
-                            alert("customer not found");
-                        }
+                    },
+                    error: function (error) {
+                        console.error("Error fetching customer details:", error);
+                        alert("Customer not found.");
                     }
                 });
-
             });
-
-
 
             // Handle submit button click
             $("#btnSubmit").on("click", function () {
                 var Bill_No = $("#Bill_No").val();
-                if (!Bill_No) {
-                    alert("Please enter the bill no.");
+                var cust_no = $("#cust_no").val(); // Get the customer number from the input
+                var createdDate = new Date().toISOString(); // Get current date in ISO format
+                var paidBy = "User"; // You can modify this to capture the actual user who made the payment
+
+                selectedCompanyNo = $("#companyList").val();
+                if (!selectedCompanyNo) {
+                    alert("Please select a company.");
                     return;
                 }
 
-                // Fetch customer balance again when submitting
+                if (!Bill_No || !cust_no) {
+                    alert("Please enter the bill no and customer number.");
+                    return;
+                }
+
+                // Fetch customer balance
                 $.ajax({
-                    // url: `https://localhost:7170/Customer/GetCustomerByCustomNo/${Bill_No}`,
-                    // type: "GET",
+                    url: `https://localhost:7170/Customer/GetCustomerByCustomNo/${cust_no}`,
+                    type: "GET",
                     success: function (response) {
                         var customerBalance = response.balance; // Store the fetched balance
-                        console.log("Customer balance:", customerBalance);
-
                         var selectedBills = [];
                         var totalBillBalance = 0;
 
@@ -462,15 +412,58 @@
                         });
 
                         if (selectedBills.length > 0) {
-                            if (totalBillBalance <= customerBalance) {
-                                console.log("Selected bills for payment:", selectedBills);
-                                console.log("Total bill balance:", totalBillBalance);
-                                console.log("Customer balance:", customerBalance);
-                                // Here you can add your logic to process the payment
-                                alert("Payment successful!");
-                            } else {
-                                alert("Insufficient balance. Please select fewer bills or add funds to your account.");
-                            }
+                            // Call the compare balance API
+                            $.ajax({
+                                url: `https://localhost:7170/Bills/Compare_The_Balance/${selectedCompanyNo}/${Bill_No}/${cust_no}`,
+                                type: "PUT",
+                                success: function (compareResponse) {
+                                    // Assuming the API response will tell whether the balance comparison passed
+                                    if (compareResponse.canProceed) {
+                                        // Update customer balance after confirming payment
+                                        $.ajax({
+                                            url: `https://localhost:7170/Customer/GetCustomerByCustomNo/${cust_no}`, // Update to your update balance API endpoint
+                                            type: "GET",
+                                            contentType: "application/json",
+                                            data: JSON.stringify({
+                                                cust_no: cust_no,
+                                                amount: totalBillBalance // Use the totalBillBalance to deduct from the customer
+                                            }),
+                                            success: function (updateResponse) {
+                                                // Save the payment to the paid table
+                                                $.ajax({
+                                                    url: `https://localhost:7170/Paid__Bill/bill_no?${Bill_no}`, // Update to your API endpoint for adding payment
+                                                    type: "POST",
+                                                    contentType: "application/json",
+                                                    data: JSON.stringify({
+                                                        bill_no: Bill_No,
+                                                        amount: totalBillBalance,
+                                                        paid_by: paidBy,
+                                                        created_date: createdDate
+                                                    }),
+                                                    success: function (saveResponse) {
+                                                        alert("Payment successful! New balance: " + updateResponse.newBalance);
+                                                        // Optionally, refresh the UI or clear inputs here
+                                                    },
+                                                    error: function (error) {
+                                                        console.error("Error saving payment to the paid table:", error);
+                                                        alert("Error saving payment details.");
+                                                    }
+                                                });
+                                            },
+                                            error: function (error) {
+                                                console.error("Error updating balance:", error);
+                                                alert("Error updating balance.");
+                                            }
+                                        });
+                                    } else {
+                                        alert("Insufficient balance to cover the bills. Please select fewer bills or add funds.");
+                                    }
+                                },
+                                error: function (error) {
+                                    console.error("Error comparing balances:", error);
+                                    alert("Error comparing balances.");
+                                }
+                            });
                         } else {
                             alert("Please select at least one bill to confirm payment.");
                         }
@@ -482,7 +475,7 @@
                 });
             });
         });
-
-
     </script>
-</div>
+</body>
+</html>
+
