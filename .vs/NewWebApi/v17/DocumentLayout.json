@@ -15,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\bill_search_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\bill_search_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\paid__billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\companycontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\bill_search_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\bill_search_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -233,32 +229,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "jquery.min.js",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABkpwAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-12T12:35:08.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "CustomerViewModel.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CustomerViewModel.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\CustomerViewModel.cs",
@@ -271,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
@@ -283,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\LoginVM.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\LoginVM.cs",
@@ -302,14 +281,14 @@
               "RelativeDocumentMoniker": "NewWebApi\\Controllers\\BillsController.cs",
               "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\BillsController.cs",
               "RelativeToolTip": "NewWebApi\\Controllers\\BillsController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAQwEwAAAAxAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAuwDgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T14:34:08.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
@@ -321,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\AppUser.cs",
@@ -334,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "UserProfileCustom.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\UserProfileCustom.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\UserProfileCustom.cshtml",
@@ -346,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "Bill_Search_Controller.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
@@ -359,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Account\\Login.cshtml",
@@ -372,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Bills.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Bills.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\Bills.cs",
@@ -385,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "BillsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\BillsViewModel.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\BillsViewModel.cs",
@@ -398,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
@@ -411,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CompanyController1.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CompanyController1.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\CompanyController1.cs",
@@ -424,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\HomeController.cs",
@@ -450,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Program.cs",
@@ -463,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Paid__Bills.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Paid__Bills.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\Paid__Bills.cs",
@@ -476,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Paid__BillController.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\Paid__BillController.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Controllers\\Paid__BillController.cs",
@@ -495,7 +474,7 @@
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAHIBAAAAAAAAAAAIwKABAABTAAAA",
+              "ViewState": "AQIAAIUBAAAAAAAAAAAYwK4BAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-05T12:54:59.488Z",
               "EditorCaption": ""
@@ -508,14 +487,14 @@
               "RelativeDocumentMoniker": "NewWebApi\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "NewWebApi\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAfAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwEkAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T13:43:10.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\CustomerController.cs",
@@ -528,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CompanyController.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CompanyController.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Controllers\\CompanyController.cs",
@@ -541,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "CustomerInfos.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\ViewsModel\\CustomerInfos.cs",
               "RelativeDocumentMoniker": "NewWebApi\\ViewsModel\\CustomerInfos.cs",
@@ -554,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "CompanyViewModel.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CompanyViewModel.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\CompanyViewModel.cs",
@@ -567,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -579,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Privacy.cshtml",
@@ -591,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Register.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Register.cshtml",
@@ -603,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Account\\Register.cshtml",
@@ -615,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\AccountController.cs",
@@ -628,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\ErrorViewModel.cs",
@@ -641,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\Customer.cs",
@@ -653,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Data\\AppDbContext.cs",
@@ -665,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\appsettings.json",
               "RelativeDocumentMoniker": "NewWebApi\\appsettings.json",
@@ -677,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Company\\Index.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Company\\Index.cshtml",
@@ -690,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Controllers\\HomeController.cs",
@@ -702,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Program.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Program.cs",
@@ -714,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -726,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Properties\\launchSettings.json",
@@ -738,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "20240806125533_Initial.Designer.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240806125533_Initial.Designer.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Migrations\\20240806125533_Initial.Designer.cs",
@@ -750,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "Microsoft.NET.GenerateAssemblyInfo.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.GenerateAssemblyInfo.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.GenerateAssemblyInfo.targets",
@@ -762,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "20240808130632_wow.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
@@ -774,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Company.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\Company.cs",
@@ -786,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "RegisterVM.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\RegisterVM.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\RegisterVM.cs",
@@ -798,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
@@ -810,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\appsettings.json",
@@ -822,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\css\\site.css",
@@ -834,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\appsettings.Development.json",
@@ -846,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "NewWebApi.csproj",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\NewWebApi.csproj",
               "RelativeDocumentMoniker": "NewWebApi\\NewWebApi.csproj",
@@ -858,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "NewWebApi\\appsettings.Development.json",
@@ -870,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\js\\site.js",
@@ -882,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "NewWebApi\\Views\\Login\\Index.cshtml",
@@ -893,7 +872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "NewWebApi\\Properties\\launchSettings.json",
@@ -905,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\ErrorViewModel.cs",
@@ -917,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Controllers\\LoginController.cs",
@@ -929,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "logger.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Helper\\logger.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Helper\\logger.cs",

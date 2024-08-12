@@ -95,8 +95,8 @@ namespace NewWebApi.Controllers
 
 
             var billParams = new DynamicParameters();
-            billParams.Add("@billNo", Cust_No);
-            billParams.Add("@companyNo", Cust_No);
+            billParams.Add("@billNo", Bill_No);
+            billParams.Add("@companyNo", Company_No);
             var billResponse = await connection.QueryAsync<Bills>("select * from Bills where Bill_No = @billNo and Company_No = @companyNo", billParams);
             var bill = billResponse.FirstOrDefault();
             if (bill == null)
@@ -114,7 +114,7 @@ namespace NewWebApi.Controllers
             parameters.Add("@Bill_No", Bill_No);
             parameters.Add("@Cust_No", Cust_No);
 
-            var bills = await connection.QueryAsync<Bills>($"UPDATE webdata.dbo.Customer SET Balance = Balance - {newCustomerBalance} WHERE Cust_No = @Cust_No;\r\n\r\n select c.Name , c.Surname ,c.Balance from webdata.dbo.Customer c where Cust_No=@Cust_No", parameters);
+            var bills = await connection.QueryAsync<Bills>("UPDATE webdata.dbo.Customer SET Balance = Balance - {newCustomerBalance} WHERE Cust_No = @Cust_No;\r\n\r\n select c.Name , c.Surname ,c.Balance from webdata.dbo.Customer c where Cust_No=@Cust_No", parameters);
             return Ok(bills);
         }
 

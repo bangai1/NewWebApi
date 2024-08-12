@@ -421,8 +421,8 @@
                                     if (compareResponse.canProceed) {
                                         // Update customer balance after confirming payment
                                         $.ajax({
-                                            url: `https://localhost:7170/Customer/GetCustomerByCustomNo/${cust_no}`, // Update to your update balance API endpoint
-                                            type: "GET",
+                                            url: `https://localhost:7170/Customer/UpdateCustomer/Update/${Cust_No}/${Status}${customerBalance}`, // Update to your update balance API endpoint
+                                            type: "PUT",
                                             contentType: "application/json",
                                             data: JSON.stringify({
                                                 cust_no: cust_no,

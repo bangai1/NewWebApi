@@ -62,16 +62,16 @@ namespace NewWebApi.Controllers
 
 
         [HttpPut("Update")]
-        public async Task<ActionResult<Customer>> UpdateCustomer(string ID, int Status, float Balance)
+        public async Task<ActionResult<Customer>> UpdateCustomer(string Cust_No, string  Status , float Balance)
         {
             using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
             var parameters = new DynamicParameters();
 
             parameters.Add("@Status", Status);
             parameters.Add("@Balance", Balance);
-            parameters.Add("@ID", ID);
+            parameters.Add("@Cust_No", Cust_No);
 
-            await connection.ExecuteAsync("Update webdata.dbo.Customer  set Status = @Status, Balance = @Balance  where ID = @ID ", parameters);
+            await connection.ExecuteAsync("Update webdata.dbo.Customer  set Status = @Status, Balance = @Balance  where Cust_No = @Cust_No ", parameters);
             return Ok(await SelectAllCustomers(connection));
 
         }
