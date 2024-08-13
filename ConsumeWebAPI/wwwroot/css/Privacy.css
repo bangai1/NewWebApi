@@ -1,0 +1,51 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.users-container {
+    text-align: center;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.users-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .user-card img {
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+.user-info h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.user-info p {
+    color: #666;
+    margin: 5px 0 0 0;
+}

@@ -74,6 +74,8 @@ namespace NewWebApi.Controllers
             return Ok(bills);
         }
 
+
+
         [HttpPut("Compare_The_Balance/{Company_No}/{Bill_No}/{Cust_No}")]
         public async Task<ActionResult<Bills>> ComapareTHEBalance(string Company_No, string Bill_No, string Cust_No)
         {
@@ -113,9 +115,16 @@ namespace NewWebApi.Controllers
             var parameters = new DynamicParameters();
             parameters.Add("@Bill_No", Bill_No);
             parameters.Add("@Cust_No", Cust_No);
+            parameters.Add("@NewCustomerBalance", newCustomerBalance);
 
-            var bills = await connection.QueryAsync<Bills>("UPDATE webdata.dbo.Customer SET Balance = Balance - {newCustomerBalance} WHERE Cust_No = @Cust_No;\r\n\r\n select c.Name , c.Surname ,c.Balance from webdata.dbo.Customer c where Cust_No=@Cust_No", parameters);
-            return Ok(bills);
+            var bills = await connection.QueryAsync<Bills>("UPDATE webdata.dbo.Customer SET Balance = @NewCustomerBalance WHERE Cust_No = @Cust_No  select c.Name , c.Surname ,c.Balance from webdata.dbo.Customer c where Cust_No=@Cust_No", parameters);
+
+            Dictionary<string, string> resp = new Dictionary<string, string>() {
+                { "status","OK"},
+                { "customerBalance", newCustomerBalance.ToString()}
+            };
+
+            return Ok(resp);
         }
 
 

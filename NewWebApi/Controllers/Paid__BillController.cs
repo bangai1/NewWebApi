@@ -57,22 +57,31 @@ namespace NewWebApi.Controllers
                 var customers = await connection.QueryAsync<Paid__Bills>("  SELECT * FROM paid__bills WHERE bill_no  = @bill_no ", parameters);
                 return Ok(customers.FirstOrDefault()); ;
             }
-            
+
 
         }
 
         [HttpPost("bill_no")]
-        public async Task<IActionResult> Paid_Logger(int Bill_no)
+        public async Task<IActionResult> AddingThePaidCustomer(string? ID , int Bill_no , float Amount , string? Paid_By)
         {
 
             {
 
                 using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
-                var parameters = new DynamicParameters();
-                parameters.Add("@bill_no", Bill_no);
-             
 
-                var customers = await connection.QueryAsync<Customer>("  INSERT INTO Paid (Bill_No, Amount, Paid_By, Created_Date)\r\nVALUES (@Bill_No, @Amount, @Paid_By, @Created_Date" ,parameters);
+                var idCnt = await connection.QueryAsync<int>("select count(ID) from Paid__Bills");
+                var newId = idCnt.FirstOrDefault();
+                newId++;
+                var parameters = new DynamicParameters();
+
+                parameters.Add("@ID", "PB" +  newId);
+                parameters.Add("@bill_no", Bill_no);
+                parameters.Add("@Amount", Amount);
+                parameters.Add("@Paid_By", Paid_By);
+                parameters.Add("@Created_Date", DateTime.Now);
+
+
+                var customers = await connection.QueryAsync("  INSERT INTO Paid__Bills(ID , Bill_No, Amount, Paid_By, Created_At) VALUES (@ID ,@bill_no, @Amount, @Paid_By, @Created_Date)", parameters);
                 return Ok(customers.FirstOrDefault()); ;
             }
 
@@ -83,5 +92,5 @@ namespace NewWebApi.Controllers
     }
 
 }
-    
+
 

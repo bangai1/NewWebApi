@@ -1,6 +1,95 @@
 ﻿@{
-    ViewData["Title"] = "Dashboard";
+    ViewData["Title"] = "Dashboard ";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Here To Sign Up</p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            margin-bottom: 0.5rem;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .card-img-top {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .dashboard-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">User Dashboard</a>
+        </div>
+    </nav>
+
+    <div class="container dashboard-container">
+        <div class="row">
+            <!-- User Card Template -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/100" class="card-img-top" alt="User Avatar">
+                    <div class="card-body">
+                        <h5 class="card-title">User Name</h5>
+                        <p class="card-text">Email: user@example.com</p>
+                        <p class="card-text">Role: Admin</p>
+                        <a href="#" class="btn btn-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat this card block for more users -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/100" class="card-img-top" alt="User Avatar">
+                    <div class="card-body">
+                        <h5 class="card-title">Jane Doe</h5>
+                        <p class="card-text">Email: jane.doe@example.com</p>
+                        <p class="card-text">Role: Editor</p>
+                        <a href="#" class="btn btn-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/100" class="card-img-top" alt="User Avatar">
+                    <div class="card-body">
+                        <h5 class="card-title">John Smith</h5>
+                        <p class="card-text">Email: john.smith@example.com</p>
+                        <p class="card-text">Role: Contributor</p>
+                        <a href="#" class="btn btn-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of User Card Template -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

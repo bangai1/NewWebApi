@@ -41,10 +41,26 @@ namespace ConsumeWebAPI.Controllers
             return View(companyList);
         }
 
-        public IActionResult Privacy()
+        public IActionResult OnlineUsers()
         {
             return View();
         }
+
+
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+
+        public IActionResult Profiles()
+        {
+            return View();
+        }
+
+        
+
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

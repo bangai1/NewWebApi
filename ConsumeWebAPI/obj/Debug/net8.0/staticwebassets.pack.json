@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\ConsumeWebAPI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Dashboard.css",
+      "PackagePath": "staticwebassets\\css\\Dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Privacy.css",
+      "PackagePath": "staticwebassets\\css\\Privacy.css"
+    },
+    {
       "Id": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

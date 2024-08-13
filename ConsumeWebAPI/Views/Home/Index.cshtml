@@ -322,13 +322,13 @@
                         if (response.length > 0) {
                             $.each(response, function (index, bill) {
                                 $billTable.append(`
-                                    <tr>
-                                        <td><input type="checkbox" data-bill-balance="${bill.balance}" value="${bill.id}"></td>
-                                        <td>${bill.id}</td>
-                                        <td>${new Date(bill.due_Date).toLocaleDateString()}</td>
-                                        <td>${bill.balance}</td>
-                                    </tr>
-                                `);
+                                        <tr>
+                                            <td><input type="checkbox" data-bill-balance="${bill.balance}" value="${bill.id}"></td>
+                                            <td>${bill.id}</td>
+                                            <td>${new Date(bill.due_Date).toLocaleDateString()}</td>
+                                            <td>${bill.balance}</td>
+                                        </tr>
+                                    `);
                             });
 
                             $("#billTable").show();
@@ -360,12 +360,12 @@
                             var $customerTable = $("#customerTable tbody");
                             $customerTable.empty(); // Clear any previous data
                             $customerTable.append(`
-                                <tr>
-                                    <td>${response.name}</td>
-                                    <td>${response.surname}</td>
-                                    <td>${response.balance}</td>
-                                </tr>
-                            `);
+                                    <tr>
+                                        <td>${response.name}</td>
+                                        <td>${response.surname}</td>
+                                        <td>${response.balance}</td>
+                                    </tr>
+                                `);
                             $("#customerTable").show(); // Show the table with customer details
                         } else {
                             alert("Customer not found.");
@@ -413,46 +413,31 @@
 
                         if (selectedBills.length > 0) {
                             // Call the compare balance API
+                            var data = {
+                                Bill_no: Bill_No,
+                                Amount: totalBillBalance,
+                                custId: cust_no,
+                                // Created_Date: createdDate
+                            }
                             $.ajax({
                                 url: `https://localhost:7170/Bills/Compare_The_Balance/${selectedCompanyNo}/${Bill_No}/${cust_no}`,
                                 type: "PUT",
                                 success: function (compareResponse) {
                                     // Assuming the API response will tell whether the balance comparison passed
-                                    if (compareResponse.canProceed) {
-                                        // Update customer balance after confirming payment
+                                    if (compareResponse.status == "OK") {
+                                        // Save the payment to the paid table
                                         $.ajax({
-                                            url: `https://localhost:7170/Customer/UpdateCustomer/Update/${Cust_No}/${Status}${customerBalance}`, // Update to your update balance API endpoint
-                                            type: "PUT",
+                                            url: `https://localhost:7170/Paid__Bill/bill_no`, // Update to your API endpoint for adding payment
+                                            type: "POST",
                                             contentType: "application/json",
-                                            data: JSON.stringify({
-                                                cust_no: cust_no,
-                                                amount: totalBillBalance // Use the totalBillBalance to deduct from the customer
-                                            }),
-                                            success: function (updateResponse) {
-                                                // Save the payment to the paid table
-                                                $.ajax({
-                                                    url: `https://localhost:7170/Paid__Bill/bill_no?${Bill_no}`, // Update to your API endpoint for adding payment
-                                                    type: "POST",
-                                                    contentType: "application/json",
-                                                    data: JSON.stringify({
-                                                        bill_no: Bill_No,
-                                                        amount: totalBillBalance,
-                                                        paid_by: paidBy,
-                                                        created_date: createdDate
-                                                    }),
-                                                    success: function (saveResponse) {
-                                                        alert("Payment successful! New balance: " + updateResponse.newBalance);
-                                                        // Optionally, refresh the UI or clear inputs here
-                                                    },
-                                                    error: function (error) {
-                                                        console.error("Error saving payment to the paid table:", error);
-                                                        alert("Error saving payment details.");
-                                                    }
-                                                });
+                                            data: data,
+                                            success: function (saveResponse) {
+                                                alert("Payment successful! New balance: " + compareResponse.balance);
+                                                // Optionally, refresh the UI or clear inputs here
                                             },
                                             error: function (error) {
-                                                console.error("Error updating balance:", error);
-                                                alert("Error updating balance.");
+                                                console.error("Error saving payment to the paid table:", error);
+                                                alert("Error saving payment details.");
                                             }
                                         });
                                     } else {
@@ -476,6 +461,7 @@
             });
         });
     </script>
+
 </body>
 </html>
 
