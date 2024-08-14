@@ -43,7 +43,25 @@ namespace ConsumeWebAPI.Controllers
 
         public IActionResult OnlineUsers()
         {
-            return View();
+            Models.Content obj;
+            List<Models.Content> lobj = new List<Models.Content>();
+
+            obj = new Content();
+            obj.title=  "User 1";
+            obj.text= "(infos)";
+            obj.img= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTs7lUKpNI9RWwqUx3h4wmDHs4gPutew7Bug&s";
+
+            lobj.Add(obj);
+
+            obj = new Content();
+            obj.title = "User 1";
+            obj.text = "(infos)";
+            obj.img = "https://external-preview.redd.it/ancx8uloRYb3GUrsMhwzIG58CT8PY0GvKQqLv0cmsRM.jpg?auto=webp&s=312ae0e21d6985678982340853390ac93b162008";
+
+            lobj.Add(obj);
+
+
+            return View(lobj);
         }
 
 
