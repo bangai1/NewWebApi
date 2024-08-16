@@ -1,36 +1,126 @@
-﻿
+﻿@model List<AppUser>
+
+
+
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Index</h1>
 
-<table class="table table-bordered "style="margin-top:20px">
+<br />
+
+<table class="table table-bordered">
     <tr>
         <th>ID</th>
+        <th>username</th>
         <th>name</th>
         <th>surname</th>
+        <th>email</th>
+        <th>address</th>
+        <th>Delete</th>
+        <th>Update</th>
+        <th>info</th>
     </tr>
 
-    <tr>
-        <td>ID</td>
-        <td>name</td>
-        <td>surname</td>
-    </tr>
-
-    <tr>
-        <td>ID</td>
-        <td>name</td>
-        <td>surname</td>
-    </tr>
-
-    <tr>
-        <td>ID</td>
-        <td>name</td>
-        <td>surname</td>
-    </tr>
-
-
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.UserName</td>
+            <td>@item.Name</td>
+            <td>@item.Surname</td>
+            <td>@item.Email</td>
+            <td>@item.Address</td>
+         
+           
+            <td> <a href="#" class="btn btn-danger">DELETE</a></td>
+            <td> <a href="#" class="btn btn-warning">UPDATE</a></td>
+            <td> <a href="#" class="btn btn-secondary">INFO</a></td>
+        </tr>   
+    }
 
 </table>
+
+<br />
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // Handle DELETE button click
+        $(".btn-danger").on("click", function (e) {
+            e.preventDefault();
+
+            var username = $(this).closest('tr').find('td:eq(1)').text(); // Assuming username is in the second column
+            if (confirm("Are you sure you want to delete the user with username " + username + "?")) {
+                $.ajax({
+                    url: `https://localhost:7170/Admin/DeleteCustomer/${username}`,
+                    type: "DELETE",
+                    success: function (response) {
+                        alert("User deleted successfully.");
+                        location.reload(); // Reload the page to reflect changes
+                    },
+                    error: function (error) {
+                        console.error("Error deleting user:", error);
+                        alert("An error occurred while deleting the user.");
+                    }
+                });
+            }
+        });
+
+        // Handle UPDATE button click
+        $(".btn-warning").on("click", function (e) {
+            e.preventDefault();
+
+            var username = $(this).closest('tr').find('td:eq(1)').text(); // Assuming username is in the second column
+
+            $.ajax({
+                url: `https://localhost:7170/Admin/UpdateUser/${username}`,
+                type: "PUT",
+                data: {
+                    // Here you would gather and send the data you want to update
+                    // Example values, replace with actual input data
+                    name: "Updated Name",
+                    surname: "Updated Surname",
+                    address: "Updated Address"
+                },
+                success: function (response) {
+                    alert("User updated successfully.");
+                    location.reload(); // Reload the page to reflect changes
+                },
+                error: function (error) {
+                    console.error("Error updating user:", error);
+                    alert("An error occurred while updating the user.");
+                }
+            });
+        });
+
+        // Handle INFO button click
+        $(".btn-secondary").on("click", function (e) {
+            e.preventDefault();
+
+            var username = $(this).closest('tr').find('td:eq(1)').text(); // Assuming username is in the second column
+
+            $.ajax({
+                url: `https://localhost:7170/Admin/getUserFromUsername/${username}`,
+                type: "GET",
+                success: function (response) {
+                    if (response) {
+                        // Display user info in a modal or alert
+                        alert(`User Info:\nName: ${response.name}\nSurname: ${response.surname}\nEmail: ${response.email}\nAddress: ${response.address}`);
+                    } else {
+                        alert("User information not found.");
+                    }
+                },
+                error: function (error) {
+                    console.error("Error fetching user info:", error);
+                    alert("An error occurred while fetching user information.");
+                }
+            });
+        });
+    });
+</script>
+

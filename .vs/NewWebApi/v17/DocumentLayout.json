@@ -3,28 +3,132 @@
   "WorkspaceRootPath": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\companycontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\companycontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\companyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\companyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\bill_search_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\bill_search_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\bill_search_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\bill_search_\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\wwwroot\\adminlte-3.2.0\\index3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\wwwroot\\adminlte-3.2.0\\index3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\models\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\models\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\models\\paid__bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\models\\paid__bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\billsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\billsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\wwwroot\\adminlte-3.2.0\\index3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\wwwroot\\adminlte-3.2.0\\index3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\wwwroot\\adminlte-3.2.0\\docs\\_layouts\\default.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,10 +143,6 @@
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -51,16 +151,8 @@
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,24 +171,8 @@
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\migrations\\20240806125533_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\billsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\billsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\companyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\companyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\home\\onlineusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -111,28 +187,12 @@
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\wwwroot\\css\\privacy.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\wwwroot\\css\\privacy.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\bill_search_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\bill_search_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -155,48 +215,12 @@
       "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\paid__billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\models\\paid__bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\models\\paid__bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\models\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\models\\bills.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\controllers\\companycontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\companycontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\viewsmodel\\customerinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\viewsmodel\\customerinfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -215,10 +239,6 @@
       "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -229,10 +249,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\migrations\\20240806125533_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\migrations\\20240806125533_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\models\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.GenerateAssemblyInfo.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -254,20 +270,8 @@
       "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\newwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\consumewebapi\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{75C71E29-B3F6-44D0-97AD-3CD46A937E5A}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|solutionrelative:newwebapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F08DD9D-8FC3-4AE6-9615-DD176FFD1904}|NewWebApi\\NewWebApi.csproj|c:\\users\\berkay\\source\\repos\\newwebapi\\newwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -289,7 +293,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -297,106 +301,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\AppUser.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:19:12.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "ConsumeWebAPI\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AQIAAFACAAAAAAAAAAAmwGICAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEBAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T11:26:00.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T11:26:00.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:10:33.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyController1.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CompanyController1.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\CompanyController1.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CompanyController1.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\CompanyController1.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:34:39.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "NewWebApi\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Users.cs",
+              "RelativeToolTip": "NewWebApi\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T08:27:10.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompanyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CompanyViewModel.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\CompanyViewModel.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CompanyViewModel.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Models\\CompanyViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T08:03:46.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "NewWebApi\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwCIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T08:24:00.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Admin\\Index.cshtml",
               "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "ConsumeWebAPI\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T11:28:07.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T11:28:07.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwDoAAACcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T08:28:44.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T13:25:16.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CustomerViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CustomerViewModel.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\CustomerViewModel.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CustomerViewModel.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Models\\CustomerViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T11:08:27.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Dashboard.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\Dashboard.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T11:34:17.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T11:28:08.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAEoAAAAfAAAA",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADsBAAAAAAAAAAAAAHIBAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T11:01:45.904Z",
+              "WhenOpened": "2024-08-05T12:54:59.488Z",
               "EditorCaption": ""
             },
             {
@@ -407,222 +416,134 @@
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\AdminController.cs",
               "RelativeToolTip": "ConsumeWebAPI\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T10:49:16.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "page.html",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\page.html",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\page.html",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\page.html",
-              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\page.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-14T11:10:41.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-14T11:07:56.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index3.html",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\index3.html",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\index3.html",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\index3.html",
-              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\index3.html",
-              "ViewState": "AQIAAFQEAAAAAAAAAAAqwHsEAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-14T11:02:02.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "default.html",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\default.html",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\default.html",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\default.html",
-              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\default.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-14T11:10:42.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAC8BAAAAAAAAAAAAAKYBAACAAAAA",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Bill_Search_\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T12:54:59.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T11:01:45.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Content.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\Content.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\Content.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\Content.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Models\\Content.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAUAAAA",
+              "DocumentIndex": 9,
+              "Title": "BillsController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\BillsController.cs",
+              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\BillsController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\BillsController.cs",
+              "RelativeToolTip": "NewWebApi\\Controllers\\BillsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T07:47:12.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T14:34:08.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CompanyViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CompanyViewModel.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\CompanyViewModel.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CompanyViewModel.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Models\\CompanyViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
+              "DocumentIndex": 10,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "NewWebApi\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T08:35:11.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T08:33:07.607Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T11:28:05.855Z",
-              "EditorCaption": ""
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "NewWebApi\\Controllers\\CompanyController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wDYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:37:02.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 14,
+              "Title": "Bill_Search_Controller.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T08:06:11.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T10:52:06.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwCUAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T08:28:44.257Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\LoginVM.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\LoginVM.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\LoginVM.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Models\\LoginVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T12:58:42.313Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:40:22.476Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\AppUser.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Models\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T12:19:12.426Z",
-              "EditorCaption": ""
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T13:06:12.397Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "20240808130632_wow.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T13:06:32.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Program.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Program.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAIwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T13:16:35.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20240806125533_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240806125533_Initial.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Migrations\\20240806125533_Initial.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240806125533_Initial.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Migrations\\20240806125533_Initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T08:09:06.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "OnlineUsers.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\OnlineUsers.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\OnlineUsers.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\OnlineUsers.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\OnlineUsers.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Company\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Company\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Company\\Index.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Company\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T12:48:29.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T11:59:20.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Privacy.css",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Privacy.css",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\css\\Privacy.css",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Privacy.css",
-              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\css\\Privacy.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-13T12:27:44.407Z",
-              "EditorCaption": ""
+              "DocumentIndex": 20,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\RegisterVM.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Models\\RegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:58:53.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 21,
               "Title": "Bills.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Bills.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\Bills.cs",
@@ -630,103 +551,47 @@
               "RelativeToolTip": "NewWebApi\\Models\\Bills.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T11:01:32.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T11:01:32.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BillsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\BillsViewModel.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\BillsViewModel.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\BillsViewModel.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Models\\BillsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T10:53:14.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T13:04:43.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBZwDEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T13:06:51.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Bill_Search_Controller.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\Bill_Search_Controller.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T10:52:06.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T11:53:45.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Dashboard.css",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Dashboard.css",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\css\\Dashboard.css",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Dashboard.css",
-              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\css\\Dashboard.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "DocumentIndex": 22,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-13T12:22:44.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T11:01:03.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Profiles.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Profiles.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Profiles.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Profiles.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\Profiles.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T12:48:47.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CompanyController1.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CompanyController1.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\CompanyController1.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CompanyController1.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\CompanyController1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAbAAAA",
+              "DocumentIndex": 23,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "NewWebApi\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "NewWebApi\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T08:34:39.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T11:30:30.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 24,
               "Title": "Paid__Bills.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Paid__Bills.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\Paid__Bills.cs",
@@ -734,12 +599,287 @@
               "RelativeToolTip": "NewWebApi\\Models\\Paid__Bills.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T11:30:26.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T11:30:26.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T13:06:51.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\CustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\CustomerViewModel.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Models\\CustomerViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:08:27.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T11:34:17.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T13:25:16.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "NewWebApi\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T06:32:00.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BillsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\BillsViewModel.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\BillsViewModel.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\BillsViewModel.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Models\\BillsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:53:14.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T11:28:08.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "page.html",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\page.html",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\page.html",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\page.html",
+              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\page.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-14T11:10:41.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-14T11:07:56.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "index3.html",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\index3.html",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\index3.html",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\index3.html",
+              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\index3.html",
+              "ViewState": "AQIAAFQEAAAAAAAAAAAqwHsEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-14T11:02:02.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "default.html",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\default.html",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\default.html",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\default.html",
+              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\AdminLTE-3.2.0\\docs\\_layouts\\default.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-14T11:10:42.731Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
+              "Title": "Content.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\Content.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\Content.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\Content.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Models\\Content.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:47:12.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T11:28:05.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T08:06:11.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\LoginVM.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\LoginVM.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Models\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:58:42.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20240808130632_wow.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Migrations\\20240808130632_wow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:06:32.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Program.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAIwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T13:16:35.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240806125533_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240806125533_Initial.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Migrations\\20240806125533_Initial.cs",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240806125533_Initial.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Migrations\\20240806125533_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T08:09:06.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "OnlineUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\OnlineUsers.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\OnlineUsers.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\OnlineUsers.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\OnlineUsers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T12:48:29.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Privacy.css",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Privacy.css",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\css\\Privacy.css",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Privacy.css",
+              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\css\\Privacy.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-13T12:27:44.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T11:53:45.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Dashboard.css",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Dashboard.css",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\css\\Dashboard.css",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\Dashboard.css",
+              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\css\\Dashboard.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-13T12:22:44.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Profiles.cshtml",
+              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Profiles.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Profiles.cshtml",
+              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Profiles.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\Profiles.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T12:48:47.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "Paid__BillController.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\Paid__BillController.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Controllers\\Paid__BillController.cs",
@@ -747,25 +887,11 @@
               "RelativeToolTip": "NewWebApi\\Controllers\\Paid__BillController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAowEAAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T22:25:52.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T22:25:52.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "NewWebApi\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwEkAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T13:43:10.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 50,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -773,12 +899,11 @@
               "RelativeToolTip": "ConsumeWebAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T11:54:01.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T11:54:01.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 45,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Home\\Register.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Home\\Register.cshtml",
@@ -786,51 +911,11 @@
               "RelativeToolTip": "ConsumeWebAPI\\Views\\Home\\Register.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T11:52:25.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T11:52:25.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Customer\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T07:40:22.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T13:04:43.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwDYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T13:06:12.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 51,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Shared\\Error.cshtml",
@@ -838,12 +923,11 @@
               "RelativeToolTip": "ConsumeWebAPI\\Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T11:28:11.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T11:28:11.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 49,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Program.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Program.cs",
@@ -851,38 +935,11 @@
               "RelativeToolTip": "NewWebApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:23:36.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T07:23:36.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "BillsController.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\BillsController.cs",
-              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\BillsController.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\BillsController.cs",
-              "RelativeToolTip": "NewWebApi\\Controllers\\BillsController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAD4v1AAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T14:34:08.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAwwAcAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T11:10:33.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 53,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Test.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\Test.cs",
@@ -890,25 +947,11 @@
               "RelativeToolTip": "NewWebApi\\Models\\Test.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:02:41.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T09:02:41.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "CompanyController.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CompanyController.cs",
-              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\CompanyController.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\CompanyController.cs",
-              "RelativeToolTip": "NewWebApi\\Controllers\\CompanyController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T06:37:02.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 54,
               "Title": "CustomerInfos.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\ViewsModel\\CustomerInfos.cs",
               "RelativeDocumentMoniker": "NewWebApi\\ViewsModel\\CustomerInfos.cs",
@@ -916,12 +959,11 @@
               "RelativeToolTip": "NewWebApi\\ViewsModel\\CustomerInfos.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T08:30:00.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T08:30:00.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\Customer.cs",
@@ -929,12 +971,11 @@
               "RelativeToolTip": "NewWebApi\\Models\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T08:36:46.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T08:36:46.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Data\\AppDbContext.cs",
@@ -942,12 +983,11 @@
               "RelativeToolTip": "ConsumeWebAPI\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T12:04:16.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T12:04:16.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\appsettings.json",
               "RelativeDocumentMoniker": "NewWebApi\\appsettings.json",
@@ -955,38 +995,11 @@
               "RelativeToolTip": "NewWebApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-01T08:30:17.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T08:30:17.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Company\\Index.cshtml",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Company\\Index.cshtml",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Views\\Company\\Index.cshtml",
-              "RelativeToolTip": "ConsumeWebAPI\\Views\\Company\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T11:59:20.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "NewWebApi\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T08:41:49.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -994,12 +1007,11 @@
               "RelativeToolTip": "ConsumeWebAPI\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T12:49:28.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T12:49:28.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Properties\\launchSettings.json",
@@ -1007,12 +1019,11 @@
               "RelativeToolTip": "ConsumeWebAPI\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-02T07:55:42.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T07:55:42.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "20240806125533_Initial.Designer.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Migrations\\20240806125533_Initial.Designer.cs",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\Migrations\\20240806125533_Initial.Designer.cs",
@@ -1020,12 +1031,11 @@
               "RelativeToolTip": "ConsumeWebAPI\\Migrations\\20240806125533_Initial.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T12:49:25.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T12:49:25.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "Microsoft.NET.GenerateAssemblyInfo.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.GenerateAssemblyInfo.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.GenerateAssemblyInfo.targets",
@@ -1033,12 +1043,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.GenerateAssemblyInfo.targets",
               "ViewState": "AQIAAKAAAAAAAAAAAAAAwMYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-08-08T11:49:07.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T11:49:07.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\Company.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Models\\Company.cs",
@@ -1046,25 +1055,11 @@
               "RelativeToolTip": "NewWebApi\\Models\\Company.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T23:10:16.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T23:10:16.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "RegisterVM.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\RegisterVM.cs",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\Models\\RegisterVM.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\Models\\RegisterVM.cs",
-              "RelativeToolTip": "ConsumeWebAPI\\Models\\RegisterVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T12:58:53.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\appsettings.json",
@@ -1072,25 +1067,11 @@
               "RelativeToolTip": "ConsumeWebAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAACIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-01T12:28:42.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T12:28:42.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-02T11:01:03.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\appsettings.Development.json",
@@ -1098,12 +1079,11 @@
               "RelativeToolTip": "ConsumeWebAPI\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-06T12:35:21.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T12:35:21.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 66,
               "Title": "NewWebApi.csproj",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\NewWebApi.csproj",
               "RelativeDocumentMoniker": "NewWebApi\\NewWebApi.csproj",
@@ -1111,12 +1091,11 @@
               "RelativeToolTip": "NewWebApi\\NewWebApi.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-06T12:52:33.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T12:52:33.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "NewWebApi\\appsettings.Development.json",
@@ -1124,25 +1103,23 @@
               "RelativeToolTip": "NewWebApi\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-01T12:28:47.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T12:28:47.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 67,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "ConsumeWebAPI\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\ConsumeWebAPI\\wwwroot\\js\\site.js",
               "RelativeToolTip": "ConsumeWebAPI\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAOoAAAAAAAAAAOBvwCIBAAAUAAAA",
+              "ViewState": "AQIAAOcAAAAAAAAAACBzwCIBAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-02T11:46:01.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T11:46:01.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "NewWebApi\\Views\\Login\\Index.cshtml",
@@ -1153,7 +1130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "NewWebApi\\Properties\\launchSettings.json",
@@ -1161,38 +1138,11 @@
               "RelativeToolTip": "NewWebApi\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-01T12:28:51.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T12:28:51.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "NewWebApi\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "NewWebApi\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T11:30:30.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "NewWebApi\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "NewWebApi\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T06:32:00.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "logger.cs",
               "DocumentMoniker": "C:\\Users\\berkay\\source\\repos\\NewWebApi\\NewWebApi\\Helper\\logger.cs",
               "RelativeDocumentMoniker": "NewWebApi\\Helper\\logger.cs",
@@ -1200,8 +1150,7 @@
               "RelativeToolTip": "NewWebApi\\Helper\\logger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T11:01:42.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T11:01:42.685Z"
             }
           ]
         }
