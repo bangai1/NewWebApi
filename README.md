@@ -157,18 +157,24 @@ web url from we are adjusting the response message to our website
 
 **Login page**
 
-<img src="register.JPG"
+![log in](https://github.com/user-attachments/assets/9cb0bcf0-c869-4d22-aa05-61a611124a7b)
+<br/>
 
 
 **Register page**
 
-//img login 
+![register](https://github.com/user-attachments/assets/7cc7dd27-ca81-465c-9b27-8ed99b9b27ff)
+<br/>
 
-**Account Display**
+**Dashboard Display**
 
-//img account
+![admin dashboard](https://github.com/user-attachments/assets/d6c406e6-9a7a-4284-81fa-a40fc9c565eb)
+<br/>
 
 **Home page**
+
+![user payment](https://github.com/user-attachments/assets/fcaaae30-3de7-446b-9a27-e6fe0fb99e60)
+<br/>
 
 -Company selection
 
