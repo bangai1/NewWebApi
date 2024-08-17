@@ -157,8 +157,7 @@ web url from we are adjusting the response message to our website
 
 **Login page**
 
-//img login 
-
+<img src="register.jpg"
 **Register page**
 
 //img login 
