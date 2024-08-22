@@ -115,6 +115,27 @@ namespace NewWebApi.Models
 <br/>
 
 
+
+<br/>
+Here is the API(previews) that  I used for the CRUD operations
+<br/>
+
+![swagger api](https://github.com/user-attachments/assets/42966040-f504-4497-b9aa-903d1aef6d2b)
+
+<br/>
+
+
+<br/>
+So this our request URL that we are gonna use in our ConsumeAPI section
+
+![repsonse and structure](https://github.com/user-attachments/assets/2197f3c9-d715-4dca-aeb8-8cf6da148190)
+
+
+
+<br/>
+
+
+
 Here we are consuming our api with http client 
 ```
   private readonly HttpClient _client;
@@ -177,7 +198,12 @@ web url from we are adjusting the response message to our website
 ![user payment](https://github.com/user-attachments/assets/fcaaae30-3de7-446b-9a27-e6fe0fb99e60)
 <br/>
 
--Company selection
+
+**Company Selection**
+
+//Comapany views
+<br/>
+
 
 -Getting Bill number from customer
 
