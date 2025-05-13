@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "mSzkmb7L2Qbc8vLRSdiNx4qPLsYLV6KZ4p1SoSrkZ5w=",
+  "Hash": "o4d2otboE+40/Yli0He2qIKKNJMvwWHgUx1GxQ9S6vs=",
   "Source": "NewWebApi",
   "BasePath": "_content/NewWebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
